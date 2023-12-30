@@ -1,27 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #AAA;
+  background-color: #AAA;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
 
 /* Style for the scanline container */
 .scanline {
-    display: flex; /* Using flexbox */
-    width: 288px; /* Adjust width as needed */
-    height: 36px; /* Adjust height as needed */
-    border: 1px solid #FFF; /* Just for visibility */
+  height: 36px; /* Adjust height as needed */
 }
   
   /* Style for each pixel */
 .pixel {
-   flex: 1; /* Each pixel takes up equal space */
-   height: 100%; /* Fills the height of the scanline */
-   background-color: black; /* Color of the pixel */
-   border-right: 1px solid #FFF; /* Just for visibility */
-   border-bottom: 1px solid #FFF; /* Just for visibility */
+  display: inline-block;
+  margin-right: -4px;
+  width: 36px;
+  height: 100%; /* Fills the height of the scanline */
+  background-color: black; /* Color of the pixel */
+}
+
+.color-picker {
+  display: inline-block;
+  margin-left: 10px;
+  width: 36px;
+  height: 100%;
+  background-color: black;
 }
