@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.title {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
 .center {
   display: flex;
   justify-content: center;
