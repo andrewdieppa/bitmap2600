@@ -57,7 +57,7 @@ document.addEventListener('click', event => {
   });
 
 // Handling individual pixel clicks
-document.addEventListener('click', event => {
+document.addEventListener('mousedown', event => {
   if (event.target.classList.contains('pixel')) {
     // get pixel
     const pixel = event.target;
@@ -83,3 +83,8 @@ btnGrid.addEventListener('click', () => {
   })
 
 });
+
+
+
+
+
