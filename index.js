@@ -158,7 +158,10 @@ btnCreate.addEventListener('click', () => {
     output.appendChild(pLineColor);
   })
   
-})
+});
+
+// Hacky fix to show default output
+btnCreate.click();
 
 // Color Maps (only NTSC for now)
 const colorMapNtsc = new Map([
