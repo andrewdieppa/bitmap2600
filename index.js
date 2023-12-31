@@ -11,6 +11,10 @@ document.querySelectorAll('.color-picker').forEach(picker => {
 const modal = document.getElementById('colorPickerModal');
 const trigger = document.querySelectorAll(".color-picker");
 
+// Get button elements
+const btnGrid = document.getElementById('btn-grid');
+const btnCreate = document.getElementById('btn-create');
+
 // Keep track of color picker selected
 let lastPicker;
 
@@ -66,4 +70,16 @@ document.addEventListener('click', event => {
       pixel.style.backgroundColor = '#fff';
     }
   }
+});
+
+// Handle grid button click
+btnGrid.addEventListener('click', () => {
+  const pixels = document.querySelectorAll('.pixel');
+
+  pixels.forEach(pixel => {
+    pixel.classList.contains('enableGrid') 
+    ? pixel.classList.remove('enableGrid') 
+    : pixel.classList.add('enableGrid')
+  })
+
 });

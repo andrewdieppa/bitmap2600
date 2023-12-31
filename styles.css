@@ -12,8 +12,8 @@
 }
 
 .sprite {
-  border-top: solid 1px;
-  border-left: solid 1px;
+  border: solid 1px;
+ 
   user-select: none;
 }
 
@@ -28,8 +28,11 @@
   margin-right: -4px;
   width: 36px;
   height: 100%; /* Fills the height of the scanline */
-  border-right: solid 1px;
-  border-bottom: solid 1px;
+}
+
+.enableGrid {
+  border-right: dotted 1px;
+  border-bottom: dotted 1px;
 }
 
 .color-picker {
@@ -76,3 +79,11 @@
   cursor: pointer;
 }
 
+.button-bar {
+  margin-top: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+}
