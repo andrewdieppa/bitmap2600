@@ -10,4 +10,6 @@ Any color or scanline that is left blank will default to black in the color map.
 
 When ready click create to create the code to copy into your project.
 
+The color palette follows the NTSC standard. I may add PAL in the future.
+
 This isn't hosted anywhere right now so feel free to download and run it locally.
