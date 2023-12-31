@@ -11,6 +11,12 @@
   height: 100vh; /* Full viewport height */
 }
 
+.sprite {
+  border-top: solid 1px;
+  border-left: solid 1px;
+  user-select: none;
+}
+
 /* Style for the scanline container */
 .scanline {
   height: 36px; /* Adjust height as needed */
@@ -22,7 +28,8 @@
   margin-right: -4px;
   width: 36px;
   height: 100%; /* Fills the height of the scanline */
-  background-color: black; /* Color of the pixel */
+  border-right: solid 1px;
+  border-bottom: solid 1px;
 }
 
 .color-picker {
@@ -30,7 +37,9 @@
   margin-left: 10px;
   width: 36px;
   height: 100%;
-  background-color: black;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
 }
 
 /* Modal styles */
