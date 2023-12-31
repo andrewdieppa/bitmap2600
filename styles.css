@@ -87,3 +87,14 @@ button {
   font-size: 18px;
   padding: 12px 24px;
 }
+
+.output-container {
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 1px;
+}
+
+.output {
+  margin-top: 10px;
+  font-family:'Courier New', Courier, monospace;
+}
