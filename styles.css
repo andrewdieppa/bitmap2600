@@ -28,11 +28,12 @@
   margin-right: -4px;
   width: 48px;
   height: 100%; /* Fills the height of the scanline */
-}
-
-.enableGrid {
   border-right: dotted 1px;
   border-bottom: dotted 1px;
+}
+
+.disableGrid {
+  border: none;
 }
 
 .color-picker {

@@ -77,9 +77,9 @@ btnGrid.addEventListener('click', () => {
   const pixels = document.querySelectorAll('.pixel');
 
   pixels.forEach(pixel => {
-    pixel.classList.contains('enableGrid') 
-    ? pixel.classList.remove('enableGrid') 
-    : pixel.classList.add('enableGrid')
+    pixel.classList.contains('disableGrid') 
+    ? pixel.classList.remove('disableGrid') 
+    : pixel.classList.add('disableGrid')
   })
 
 });
