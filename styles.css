@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #AAA;
-}
-
 .center {
   display: flex;
   justify-content: center;
@@ -36,3 +32,38 @@ body {
   height: 100%;
   background-color: black;
 }
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 554px;
+}
+
+/* Color palette styles */
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-square {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  cursor: pointer;
+}
+
